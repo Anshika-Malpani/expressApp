@@ -1,0 +1,14 @@
+
+{
+    "version":2,
+"builds": [
+{
+"src": "./bin/www",
+"use": "avercel/node"
+}],
+"routes": [
+{
+"src": "/(.*)",
+"dest": "/"
+}]
+}
